@@ -1,0 +1,18 @@
+{
+  "pois": [
+    {
+      "id": 1,
+      "latitude": "47.389594468010614",
+      "longitude": "9.289173811645158",
+      "title": "GEOINFO IT AG",
+      "address": "Kasernenstrasse 69, 9100 Herisau, Schweiz"
+    },
+    {
+      "id": 2,
+      "latitude": "47.29438706972216",
+      "longitude": "9.647655502935352",
+      "title": "Luca Rath-Heel",
+      "address": "Alte Landstraße 8c, 6832 Röthis, Österreich"
+    }
+  ]
+}

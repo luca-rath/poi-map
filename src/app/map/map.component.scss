@@ -1,0 +1,33 @@
+.map {
+  width: 100%;
+  height: 100%;
+}
+
+.map__map {
+  width: 100%;
+  height: 100%;
+}
+
+.map__overlay {
+  width: max-content;
+  border: 1px solid #ddd;
+  padding: 20px;
+  background-color: #fff;
+}
+
+.map__form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.map__label,
+.map__input {
+  display: block;
+}
+
+.map__buttons {
+  display: flex;
+  gap: 4px;
+  margin-top: 10px;
+}

@@ -1,0 +1,45 @@
+<div class="map">
+  <div id="map" class="map__map"></div>
+  <div id="overlay" class="map__overlay" ngModel #overlay>
+    <form class="map__form" action="POST" ngModel #form>
+      <input type="hidden" name="id" ngModel #id />
+
+      <div>
+        <label class="map__label" for="title">Titel</label>
+        <input
+          class="map__input"
+          type="text"
+          name="title"
+          id="title"
+          minlength="2"
+          required
+          ngModel
+          #title
+        />
+      </div>
+
+      <div>
+        <label class="map__label" for="address">Adresse</label>
+        <input
+          class="map__input"
+          type="text"
+          name="address"
+          id="address"
+          minlength="2"
+          required
+          ngModel
+          #address
+        />
+      </div>
+
+      <div class="map__buttons">
+        <button class="map__button" type="submit" ngModel #save>
+          Speichern
+        </button>
+        <button class="map__button" type="button" ngModel #cancel>
+          Abbrechen
+        </button>
+      </div>
+    </form>
+  </div>
+</div>
